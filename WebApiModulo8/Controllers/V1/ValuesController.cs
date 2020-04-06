@@ -14,7 +14,7 @@ namespace WebApiModulo8.Controllers.V1
         [HttpGet(Name = "ObtenerValores")]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value5", "VALUE 3" };
         }
 
         // GET api/values/5
